@@ -1,0 +1,80 @@
+<!--左边内容开始-->
+<div id="oNav" class="nav">
+    <!-- <div class="nav-seach">
+        <div class="nav-seachc">
+            <div class="nav-seachico"></div>
+            <input class="inp" type="text" />
+        </div>
+    </div> -->
+    <div class="nav-c" ><!--导航开始-->
+        <ul ng-if="userRole === 2">
+            <li ng-click="itemClick(navItem.title)">
+                <h3 ui-sref="admin.page2"  ng-class="{ active:'page2'== currentType }" ng-click="changeTab('page2',$event)">
+                    <label class="ico3"></label>
+                    <span >店面管理</span>
+                </h3>
+            </li>
+            <li>
+                <h3 ui-sref="admin.page1"  ng-class="{ active:'page1'== currentType }" ng-click="changeTab('page1',$event)">
+                    <label class="ico2"></label>
+                    <span >用户管理</span>
+                </h3>
+                <!-- <ul ng-show="menuState.show">
+                    <li  ng-class="{ active:'page4'== currentType }" ng-click="changeTab('page4',$event)"><a href="javascript:;" ui-sref="admin.page4">新建用户</a></li>
+                </ul> -->
+            </li>
+            <!-- <li>
+                <h3  ui-sref="admin.home" ng-class="{ active:'home'== currentType }" ng-click="changeTab('home',$event)">
+                    <label class="ico1"></label>
+                    <span >新建系统管理</span>
+                </h3>
+            </li> -->
+            
+        </ul>
+        <ul ng-if="userRole === 1">
+            <li>
+                <h3  ui-sref="admin.home" ng-class="{ active:'home'== currentType }" ng-click="changeTab('home',$event)">
+                    <label class="ico1"></label>
+                    <span >新建系统用户</span>
+                </h3>
+            </li>
+        </ul>
+    </div><!--导航结束-->
+</div>
+<!--左边内容结束-->
+
+<!--右边内容开始-->
+<div id="oRig" class="rightWrap">
+    <div class="heard-right"><!--右边头部开始-->
+        <div class="zheard clearfix">
+            <ul class="zheard_ul1">
+                <li class="zli_er per48">车商app后台管理系统 v1.0.0</li>
+            </ul>
+            <ul class="zheard_ul2">
+                <li ng-if='isLogin' class="zli1 zli1_1">
+                    <span class="zli_sp1">欢迎{{islogmsg}}</span>
+                </li>
+                <li ng-if='!isLogin' class="zli1 zli1_1">
+                    <span class="zli_sp1">欢迎{{islogmsg}}</span>
+                </li>
+                <!-- 用户修改密码 -->
+                <li class="zli1 zli1_1">
+                    <a href="javascript:;" class="zli_sp1" ui-sref="admin.resetpassword">修改密码</a>
+                </li>
+                <!-- 用户退出 -->
+                <li class="zli3">
+                    <label ng-click="loinOut()"></label>
+                </li>
+            </ul>
+        </div>
+    </div><!--右边头部结束-->
+    <!--右边内容开始-->
+    <div ng-show="isLogin" ui-view ></div>
+    <!--右边内容结束-->
+    <div class="footer"><!--尾部开始--></div><!--尾部结束-->
+</div>
+<!--右边内容结束-->
+<div role="alert" class="alert alert-dismissible alert-{{alert.type}}" ng-repeat="alert in alerts">
+    <button aria-label="Close" data-dismiss="alert" ng-click="alert.close()" class="close" type="button"><span aria-hidden="true">×</span></button>
+    <span ng-bind="alert.msg"></span>
+</div>

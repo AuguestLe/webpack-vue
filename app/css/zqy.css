@@ -1,0 +1,182 @@
+
+/*车辆登记样式开始*/
+.box-Div-c{padding:0 10px 0 10px;width:91%;}
+.box-Div-c1{padding:0 10px 0 10px;width:74%;}
+.zgtj_btn{height:32px;line-height:32px;}
+.zgtj_btn a{background:#3a89e3;}
+.zgtj_btn a:hover{background:#3e91f0;}
+.zgtj_btn1{float: left;height: 40px;line-height: 40px;width: 160px;}
+.zgtj_btn1 a{background:#3a89e3;}
+.zgtj_btn1 a:hover{background:#3e91f0;}
+.zhtj_btn{float: left;height: 40px;line-height: 40px;width: 160px;}
+.zhtj_btn a{background:#f47059;}
+.zhtj_btn a:hover{background:#fb745d;}
+/*车辆登记样式结束*/
+/*登录样式开始*/
+.zdlubody{width:100%;height:100%;background: url("../images/dlu.jpg") no-repeat;background-size: cover;}
+.zdlubox{width:414px;position: absolute;left: 50%;top:50%;margin-left: -207px;margin-top:-200px;}
+.zdelogo img{width:100%;overflow: hidden;}
+.zdlu_ul{border-radius: 10px;background:#fff;width:400px;margin: auto;}
+.zdlu_ul li{height:60px;line-height:60px;border-bottom:1px solid #ddd; position: relative;}
+.zdlu_ul li label{float:left;display: block;}
+.zdlu_ul li p{
+	position: absolute;
+    left: 414px;
+    height: 20px;
+    width: 300px;
+}
+.zdlu_lab1{width:25px;height:28px;background:url("../images/ico.png") no-repeat -143px -337px;margin:17px 27px 15px 19px;}
+.zdlu_lab2{width:34px;height:19px;background:url("../images/ico.png") no-repeat -143px -381px;margin:17px 17px 21px 20px;}
+.zdlu_inp1{width:319px;height:59px;line-height:59px;float:left;}
+.zgtj_btn1_1{width:400px;height:60px;line-height:60px;margin:20px auto 0;float: none;}
+.zgtj_btn1_1 a{font-size:24px;}
+.zdlu_jzg{width:400px;text-align:center;font-size:16px;color:#fff;position: absolute;bottom:-100px;}
+/*二维码开始*/
+.erwei{position: absolute;width:122px;height: 200px;left: 50%;top:50%;margin-left: 19%;margin-top: 11px;}
+.erwei img{width:122px;height: 122px; }
+.erwei p{color: #fff; text-align: center; font-size: 12px; font-weight: bolder; line-height: 20px;}
+.erwei2{left: 50%;margin-left: 33%;}
+
+/*二维码结束*/
+/*登录样式结束*/
+
+/*检测详情样式开始*/
+.zhgrWrap{width:1132px;position: relative;}
+.zhgr{height:180px;overflow:hidden;}
+.zsdr_dl{width:256px;margin-left: 20px;height:168px;margin-top: 10px;margin-bottom: 10px;float:left;border:1px solid #ddd;cursor: pointer;text-align: center;}
+.zsdr_dd{width: 100%;}
+.zsdr_dd a{width: 100%;height: 168px; display: block;overflow:hidden;}
+.zsdr_dd a img{display:block;width:100%;}
+/*检测信息样式开始*/
+.ul1{float: left;padding-top: 8px;width:33.33%;}
+.ul1 li{border-bottom: 1px solid #ccc;padding: 0 6px;position: relative;}
+.ul1 li i{display: block;float: left;font-size: 12px;font-weight: bold;}
+.ul1 li a{display: block;float: left;font-size: 12px;font-weight: bold;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;max-width: 115px;}
+.ul1 li a.a_cu_def{cursor:default;}
+.ul1 li em{display: block;float: right;font-size: 12px; margin-left: 5px;}
+.zcx_em{cursor: pointer;color:#4790ef;}
+.ul2 li{height: 28px;line-height: 28px;padding-left: 24px;width: 200px;}
+.ul2 li.false1 {background:url("../images/false.png") no-repeat 0 7px;}
+.ul2 li.true1 {background: url("../images/true.png") no-repeat 0 7px;}
+.zbys{width:115px;height:22px;line-height:22px;border:1px solid #ddd;position: absolute;right:-118px;top:2px;font-size:12px;text-align: center;}
+/*检测信息样式结束*/
+
+.zdfxWrap{margin:20px 0 0 20px;padding-bottom:40px;}
+.zdfr_tex{width:750px;*width:746px;border:1px solid #ddd;padding:10px;height:95px;}
+.zdfr_ul{width:300px;margin-left: 20px;}
+.zdfr_ul li{height:32px;line-height:32px;margin-bottom:10px;}
+.zdfr_lab{display: block;float:left;width:100px; text-align: right;}
+.zdful_div{margin-left: 10px;width:190px;float:left;}
+.zdful_div input{width:130px;height:30px;line-height:30px;border:1px solid #ddd;padding:0 10px;}
+.zdful_div em{margin-left:10px;}
+/*检测详情样式结束*/
+
+/*车辆登记补充开始*/
+.wid1080 .new_ltem_box .lselect_lable{width: 125px;}
+.wid1080 .new_ltem_box .lselect_lable label{width: 7px; display: block; float: left; height: 32px; line-height: 32px;}
+/*车辆登记补充结束*/
+
+/*检测详情_s样式开始*/
+.zclxs{display:block;height:40px;line-height:40px;overflow: hidden;}
+.zjhg{height:220px;}
+
+/*检测详情_s样式结束*/
+
+.zxdg{overflow: auto !important;}
+.zxdg a{overflow: visible !important;}
+
+/*0517-打印证书样式开始*/
+.zdyymcon{width:794px;margin: auto;}
+.zjcbg{position: relative;padding-top:20px;}
+.zjc_h3{height:30px;line-height: 30px;width:100%;text-align: center;font-size:18px;}
+.zdyjc{height:32px;line-height:32px;margin-right:120px;margin-top:-9px;}
+.zdyjc a{float:right;cursor: pointer;}
+.zdyjc img{width:106px;display: block;overflow:hidden;}
+
+.zsd_em{display: block;height: 20px;left:6px;position: absolute;top: 21px;width: 4px;}
+.zrety{margin-bottom:20px;}
+.zdfgt{border-collapse: collapse;margin-left: 20px;width: 96%;}
+.zdfgt td{border: 1px solid #dce0e5;font-size: 12px;height:34px;text-align: center;}
+.zdfgt td.wid12{width:12%;}
+.zdfgt td.wid22{width:22%;}
+.zdfgt td.ztfg_td{text-align: left;text-indent: 20px;}
+.zdf_em{display:block;position: absolute;right:20px;top:6px;}
+.zdf_em img{width:20px;height: 20px;overflow: hidden;display: block;}
+.zghj_dl{width:200px;float:left;margin-left: 20px;margin-bottom:20px;}
+.zghj_dl dt{width:198px;height:130px;overflow:hidden;border:1px solid #ddd;}
+.zghj_dl dt img{width:100%;display:block;overflow: hidden;}
+.zghj_dl dd{height:20px;line-height: 20px;text-align: center;margin-top:10px;font-size: 12px;}
+.zokh_ul li{width:249px;padding:0 6px 0 0;margin-right:80px;}
+.zokh_ul li a{max-width:120px;}
+.zokh_ul .zbys{width:70px;right:-72px;height:19px;line-height:19px;top:5px;}
+.fal_img,.tru_img{float:left;width:16px;height:16px;display: block;overflow:hidden;margin-top:6px;margin-right:5px;}
+.zw_zb_ok1 img{width:100%;height:19px;overflow: hidden;display: block;}
+.zkui{position: relative;}
+.zgzrz{width:200px;height:200px;position: absolute;right:100px;bottom:0;}
+.zgzrz img{display: block;width:100%;overflow: hidden;}
+/*0517-打印证书样式结束*/
+/*整备项目详情样式开始*/
+.zkli_dl{float:left;margin-bottom: 10px;margin-top:20px;width:160px;margin-right:15px;}
+.zkli_dd1{border:1px dashed #000;cursor:pointer;height:118px;overflow:hidden;position:relative;width: 158px;}
+.zkli_dd1 img{display: block;position: absolute;top: 0;width: 100%;z-index:1;}
+.zkli_dd1:hover img{top:-118px;}
+.zkli_dd3{border: 1px dashed #000;height: 118px;position: relative;width: 158px;}
+.zkli_dd3 img{display: block;left: 0;height: 118px;overflow: hidden;top: 0;width: 100%;z-index: 5;position:absolute;}
+.zclose{background:url(../images/close.png) no-repeat;display:block;height:30px;position: absolute;right: -10px;top: -10px;width: 30px;z-index: 10;}
+
+.zgrti{position: absolute;bottom:0;right:20px;}
+
+/*整备项目详情样式结束*/
+
+/*打印预售单样式开始*/
+.zdycfr{width:794px;margin:auto;background: #fff;position: relative;left:0;top:0;}
+.zrft{border-bottom: 1px solid #e7e7e7;margin-bottom:20px;}
+.zdajcb{float: right;margin-right: 20px;padding-top:10px;padding-bottom: 20px;}
+.zdyan{float: left;height:40px;line-height: 40px;}
+.zdyan a{padding:0 25px;background:#3a89e3;font-size:14px;}
+.zdyconW{width:100%;margin:auto;/*height:1123px;*/position: relative;left:0;top:0;}
+.zysbg{position: absolute;left:0;top:0;z-index:1;}
+.zysbg img{display: block;width:794px;height:1123px;overflow: hidden;}
+.zdynv{width:794px;margin:auto;padding-top:290px;z-index: 100;position: relative;left:0;top:0;}
+.zdyys{width:668px;margin: auto;}
+.zdyh1{font-size: 30px;text-align: center;}
+.zdytg{font-size: 18px;padding:10px 0 20px;}
+.zdytg span{display: block;float:left;width:90px;}
+.zdytg label{display: block;float: left;width:464px;}
+.zdyimg li{float: left;width:322px;height:213px;overflow:hidden;border: 1px solid #ddd;position: relative;}
+.zdyimg li img{display: block;width: 100%;overflow: hidden;}
+.zdyimg li span{position: absolute;bottom: 0;left:0;display: block;height:27px;line-height: 27px;width: 100%;color:#fff;text-align: center;}
+.zdyimg li i{position: absolute;bottom: 0;left:0;display: block;height:27px;width: 100%;overflow:hidden}
+.zgyul{width:325px;margin:40px auto 0;}
+.zgyul li{height:30px;line-height: 30px;font-size: 16px;}
+.zgyul li span{display:block;float:left;width:100px;}
+.zgyul li label{display: block;float: left;width:225px;}
+.zstr1{font-size: 50px;color:#e30000;}
+.zgyul li.zdyli1{margin-top:60px;height:40px;line-height: 40px;margin-bottom:10px;}
+.zstr2{font-size:20px;}
+.zsdfr{position: absolute;right: 20px;top:16px;}
+/*打印预售单样式结束*/
+/*打印认证证书样式开始*/
+.zgful{width:440px;margin:110px auto 30px;padding-bottom: 30px;border-bottom: 1px solid #a0aec8;position: relative;}
+.zgful li{height:40px;line-height: 40px;font-size: 16px;}
+.zgful li.zsdli{height: auto;line-height:25px;}
+.zgful li span{display:block;width:120px;float: left;}
+.zgful li label{display: block;width:320px;float: left;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.zgful li.zsdli label{white-space: normal;line-height: 25px;}
+.zliul{width:440px;margin:10px auto 20px;padding-bottom:30px;border-bottom: 1px solid #a0aec8;position: relative;}
+.zrbz{font-size: 16px;}
+.zknul{margin-top: 10px;}
+.zknul li{height:30px;line-height:30px;font-size: 16px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.zknul li i{padding-right: 10px;}
+.zimdiv{width:120px;position: absolute;right:0;bottom:-33px;}
+.zimdiv img{display: block;width: 100%;overflow: hidden;}
+.ztsli{position: absolute;right: 0;bottom:170px;}
+
+.zsdtv{width:150px;height:150px;margin: auto;}
+.zsdtv img{display: block;width: 100%;overflow: hidden;}
+.zscfp1{font-size: 14px;height:20px;line-height: 20px;text-align: center;}
+.zscfp2{font-size: 10px;height:18px;line-height: 18px;}
+/*打印认证证书样式结束*/
+
+
+

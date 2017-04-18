@@ -1,0 +1,39 @@
+<div class="zdlubody">
+    <form class="cont" name="myForm"  novalidate>
+        <div class="zdelu">
+            <div class="zdlubox">
+               <!--  <div class="zdelogo"><img src="./app/images/logo-dlu.png" alt="" /></div> -->
+                <ul class="zdlu_ul mt50">
+                    <li>
+                        <label class="zdlu_lab1"></label>
+                        <input  user-validator class="zdlu_inp1" name="user" ng-model="user"  required type="text" placeholder="请输入账号" />
+                        <p class="wl_tip" ng-show="myForm.user.$error.defined && myForm.user.$dirty&&!myForm.user.$error.required">账号格式不对</p>
+                        <p class="wl_tip" ng-show="myForm.user.$error.required && myForm.user.$dirty">账号不能为空</p>
+                    </li>
+                    <li class="no-borb" style="color: #fff">
+                        <label class="zdlu_lab2"></label> 
+                        <input class="zdlu_inp1" name="pwd" ng-model="pwd" type="password"   placeholder ="请输入密码" required ng-minlength="6" ng-maxlength="8" />
+                        <p class="wl_tip" ng-show="myForm.pwd.$error.required && myForm.pwd.$dirty">密码不能为空</p>
+                        <p class="wl_tip" ng-show="myForm.pwd.$error.minlength || myForm.pwd.$error.maxlength ">密码必须在6-8位之间</p>
+                    </li>
+                </ul>
+                <p class="wl_tip" ng-show="loginError" style="text-align: center">{{logintip}}</p>
+                <div class="btn zgtj_btn1 zgtj_btn1_1">
+                    <button ng-disabled="myForm.$invalid" ng-click="myForm.$invalid||loginCheck()" class="bor-ra">普 通 登 录</button>
+                </div>
+                <div class="btn zgtj_btn1 zgtj_btn1_1">
+                    <button ng-disabled="myForm.$invalid" ng-click="myForm.$invalid||superloginCheck()" class="bor-ra">超 管 登 录</button>
+                </div>
+                <div class="zdlu_jzg">Copyright © 2016 精真估</div>
+            </div>
+        </div>
+       <!--  <div class="erwei">
+            <img class="bor-ra" alt="扫描下载" src="images/erwei1.png"/>
+            <p>扫描下载<br/>PAD端整备检测</p>
+        </div>
+        <div class="erwei erwei2">
+            <img class="bor-ra" alt="扫描下载" src="images/erwei2.png"/>
+            <p>扫描下载<br/>IOS手机版整备检测</p>
+        </div> -->
+    </form>
+</div>
